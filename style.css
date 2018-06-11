@@ -1,0 +1,280 @@
+#pickleimg {
+  width:60px;
+}
+
+#pickle{
+  width:60px;
+  position: sticky;
+  bottom: 60px;
+  float: right;
+}
+
+.Name{
+  color: #000;
+  font-size: 25px;
+}
+
+#RickImg {
+  width: 80px;
+  grid-column:1;
+  grid-row:1;
+}
+
+#MortyImg {
+  width: 180px;
+  grid-column:2;
+  grid-row:1;
+}
+
+#BethImg{
+  width: 110px;
+  grid-column:3;
+  grid-row:1;
+}
+#JerryImg{
+  width: 180px;
+  grid-column:4;
+  grid-row:1;
+}
+
+#SummerImg{
+  width: 120px;
+  grid-column:5;
+  grid-row:1;
+}
+
+#nav {
+ margin: 0;
+  
+  padding: 15px;
+   list-style-type: none;
+    text-align: center;
+  
+}
+#nav li {
+	display: inline;
+	list-style: none; /* nécessaire pour IE7 */
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: grey;
+  font-size: 23px;
+  background-image: url('https://ak7.picdn.net/shutterstock/videos/22823317/thumb/1.jpg?i10c=img.resize(height:160)');
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#nav a {
+	display:inline-block;
+	margin: 4px 4px;
+  color: #33ccff;
+}
+
+characters {
+  
+ 
+}
+
+ #container {
+  text-align: center;
+   border: solid 3px green;
+   
+}
+
+.rm{
+  width: 20vw;
+  cursor: url('https://i.imgur.com/Ui1MOQI.png') 15 15, auto;
+}
+
+
+
+.title{
+  text-align: center;
+  width: 50vw;
+  cursor: url('https://i.imgur.com/Ui1MOQI.png') 15 15, auto;
+ 
+}
+
+header {
+  text-align: center;
+  
+  
+}
+
+.head{
+  background-image:url("http://screenpeepers.com/web/wallpapers/portal/thumbnail/lg.jpg");
+  background-size: 100% 100%;
+  z-index:-1;
+  width: 1328px;
+  height: 100%;
+  position: absolute;
+  
+  
+}
+
+#Ccontent {
+  display: grid;
+  grid-template-columns:repeat(5, 1fr);
+  grid-template-rows: 1fr 40px;
+  background-image:url("https://vignette.wikia.nocookie.net/rickandmorty/images/0/08/Front_View.jpg/revision/latest?cb=20151015031911");
+  background-size: 100% 100%;
+  opacity: 0.75;
+  
+  
+}
+
+
+
+
+
+/*CSS Antoine Derniere Version*/
+
+/*Category titles*/
+h2 {
+  text-align: center;
+  border: 1px solid black;
+  color: #33ccff;
+  text-shadow: 0px 0px 20px #66ff99;
+  text-transform: uppercase;
+  font-family: comic sans ms, sans-serif;
+  font-size: 2rem;
+  padding: 1% 2%;
+  margin: 0;
+  background-image: url('https://ak7.picdn.net/shutterstock/videos/22823317/thumb/1.jpg?i10c=img.resize(height:160)');
+}
+
+#adv {
+  z-index: 1;
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+.advices {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(5, 20%);
+}
+
+/*Images*/
+.quotes {
+  display: grid;
+  background-image: url('https://coubsecure-s.akamaihd.net/get/b121/p/coub/simple/cw_timeline_pic/3706de9702c/0ec8fa54542e60ded9a26/big_1473924546_image.jpg');
+  background-size: 100% 100%;
+  margin: 0;
+}
+
+.badimg {
+  background-image: url("https://78.media.tumblr.com/19ce3e5faee03b21c7a565d594ff1033/tumblr_inline_ovgx755Qxz1t9kkcx_540.png");
+  background-size: 100% 100%;
+  opacity: 0.55;
+  grid-column: 1;
+  grid-row: 1 / 6;
+}
+
+.goodimg {
+  background-image: url("https://feuilletooncom.files.wordpress.com/2017/10/rick-morty-en-tecc82te.png?w=950");
+  background-size: 100% 100%;
+  opacity: 0.45;
+  grid-column: 2;
+  grid-row: 1 / 6;
+}
+
+/*Advices Content*/
+h3 {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 1.25rem;
+}
+
+.bad {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+}
+
+.good {
+  grid-column: 2;
+  grid-row: 1;
+  z-index: 1;
+}
+
+/*List style*/
+.quotes li {
+  list-style: none;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.advices li {
+  list-style: none;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.25rem;
+  
+}
+
+/*Liens*/
+#advi {
+  text-align: center;
+  font-size: 1.4rem;
+  grid-row: 4;
+  grid-column: 1 / 3;
+  z-index: 1;
+}
+#adviC {
+  text-align: center;
+  font-size: 1.4rem;
+  grid-row: 4;
+  grid-column: 1 / 6;
+  z-index: 1;
+}
+
+#qtes {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+/*modifs curseur*/
+a {
+  cursor: url('https://i.imgur.com/wtuhbaE.png') 30 30, auto;
+  color: #000;
+  text-decoration: underline;
+  font-family: comic sans ms, sans-serif;
+}
+
+#nav a:hover {
+  color: black;
+}
+
+a:active {
+  color: #009900;
+  text-shadow: 0px 0px 20px #66ff99;
+}
+
+body {
+  cursor: url('https://i.imgur.com/Ui1MOQI.png') 15 15, auto;
+}
+
+#mortyU {
+  width: 1330px;
+}
+
+#life {
+  text-align: center;
+  border: 1px solid black;
+  color: #33ccff;
+  text-shadow: 0px 0px 20px #66ff99;
+  font-family: comic sans ms, sans-serif;
+  font-size: 1rem;
+  padding: 1% 2%;
+  
+  background-image: url('https://ak7.picdn.net/shutterstock/videos/22823317/thumb/1.jpg?i10c=img.resize(height:160)');
+
+}
+
+.life {
+  color: #33ccff;
+  
+}
+
+
